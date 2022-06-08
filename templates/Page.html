@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="Page.css" type="text/css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+
+<body>
+<h3>Calculator</h3>
+<br>
+
+<form action="/" method="POST" id="CalculatorForm">
+    <input type="text" value="" placeholder="First Number" id="calc-a" name="calc-a">
+    <br>
+    <input type="text" value="" placeholder="Second Number" id="calc-b" name="calc-b">
+    <br>
+    {{ Result }}
+
+    <br>
+    <!-- Calculator Start -->
+    <!-- Functions Start -->
+    <input type="button" value="Sqrt(x)" name="btn"> <!-- Button Square Root -->
+    <input type="button" value="Exp(x)" name="btn"> <!-- Button xe -->
+    <input type="button" value="Log(x[,base])" name="btn"> <!-- Button Log of x + value  -->
+    <input type="button" value="Log2(x)" name="btn"> <!-- Button Log of x + base 2 -->
+    <input type="button" value="Log10(x)" name="btn"> <!-- Button Log of x + base 10 -->
+    <br>
+    <input type="button" value="Sin(x)" name="btn"> <!-- Button sine of x -->
+    <input type="button" value="Cos(x)" name="btn"> <!-- Button cosine of x -->
+    <input type="button" value="Tan(x)" name="btn"> <!-- Button tangent of x -->
+    <input type="button" value="Degrees(x)" name="btn"> <!-- Button convert x to degrees -->
+    <br>
+    <input type="button" value="aSin(x)" name="btn"> <!-- Button inverse of sine with x -->
+    <input type="button" value="aCos(x)" name="btn"> <!-- Button inverse of cosine with x -->
+    <input type="button" value="aTan(x)" name="btn"> <!-- Button inverse of tangent with x -->
+    <input type="button" value="Radians(x)" name="btn"> <!-- Button convert x to radians -->
+    <!-- Functions End -->
+    <br>
+    <!-- Numbers / Symbols Start -->
+    <input type="button" value="7" name="btn"> <!-- Button Number 7 -->
+    <input type="button" value="8" name="btn"> <!-- Button Number 8 -->
+    <input type="button" value="9" name="btn"> <!-- Button Number 9 -->
+    <input type="button" value="Delete" name="btn"> <!-- Button Delete -->
+    <input type="button" value="Clear" name="btn"> <!-- Button All Clear -->
+    <br>
+    <input type="button" value="4" name="btn"> <!-- Button Number 4 -->
+    <input type="button" value="5" name="btn"> <!-- Button Number 5 -->
+    <input type="button" value="6" name="btn"> <!-- Button Number 6 -->
+    <input type="button" value="Multiply" name="btn"> <!-- Button Multiply -->
+    <input type="button" value="Divide" name="btn"> <!-- Button Divide -->
+    <br>
+    <input type="button" value="1" name="btn"> <!-- Button Number 1 -->
+    <input type="button" value="2" name="btn"> <!-- Button Number 2 -->
+    <input type="button" value="3" name="btn"> <!-- Button Number 3 -->
+    <input type="button" value="Add" name="btn"> <!-- Button Addition -->
+    <input type="button" value="Subtract" name="btn"> <!-- Button Subtraction -->
+    <br>
+    <input type="button" value="0" name="btn"> <!-- Button Number 1 -->
+    <input type="button" value="00" name="btn"> <!-- Button Number 2 -->
+    <input type="button" value="." name="btn"> <!-- Button Number 3 -->
+    <input type="button" value="Ans" name="btn"> <!-- Button Memory Answer -->
+    <input type="submit" value="Equals" name="btn"> <!-- Button Equal -->
+    <!-- Numbers / Symbols End -->
+    <!-- Calculator End -->
+
+    <br>
+
+</form>
+
+</body>
+</html>
